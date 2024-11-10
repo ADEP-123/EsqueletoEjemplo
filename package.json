@@ -1,0 +1,23 @@
+{
+  "name": "repobackend",
+  "version": "1.0.0",
+  "description": "Creacion de backend de la APP",
+  "type":"module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --quiet ./index.js"
+  },
+  "author": "ADEP",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "16.3.1",
+    "express": "4.18.2",
+    "express-rate-limit": "6.8.1",
+    "mongodb": "5.7.0",
+    "nodemon": "3.0.1",
+    "jose": "4.14.4",
+    "reflect-metadata": "0.1.13",
+    "express-validator": "7.0.1"
+  }
+}
