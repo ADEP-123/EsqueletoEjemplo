@@ -17,7 +17,7 @@ Para realizar este paso debe tener permisos de administrador en su dispotivo y t
 ```bash
 git clone https://github.com/ADEP-123/EsqueletoEjemplo.git
 ```
-2. Busque la carpeta oculta dentro de la carpeta `EsqueletoEjemplo` y eliminela
+2. Busque la carpeta oculta `.git` dentro de la carpeta `EsqueletoEjemplo` y eliminela
 
 ### Crear un repositorio nuevo como plantilla desde github
 1. Haz clic en el botón verde que dice "Use this template" (o "Usar esta plantilla" en español), ubicado en la parte superior del repositorio, junto al botón de "Code".
@@ -31,7 +31,7 @@ Para este paso debe tener instalado GIT CLI, lo puede encontrar en el siguiente 
 ```bash
 gh repo create <NOMBRE-DE-SU-REPO> --template https://github.com/ADEP-123/EsqueletoEjemplo.git < --public o --private >
 ```
-Debe remplaza `<NOMBRE-DE-SU-REPO>` por el nombre del repositorio que desea, y `< --public o --private >` por --public o --private segun sea el caso, por ejemplo crearemos un repositorio publico llamado `Parcial3GB_Backend` a patir de la plantilla así:
+Debe remplazar `<NOMBRE-DE-SU-REPO>` por el nombre del repositorio que desea, y `< --public o --private >` por `--public` o `--private` segun sea el caso, por ejemplo, crearemos un repositorio publico llamado `Parcial3GB_Backend` a patir de la plantilla así:
 ```bash
 gh repo create Parcial3GB_Backend --template https://github.com/ADEP-123/EsqueletoEjemplo.git --public
 ```
